@@ -17,8 +17,8 @@ class BB extends Component {
     return (
       <div>
         <h1>BB </h1>
-        <h2>Props: {this.props.name}</h2>
-        <h2>State: {this.state.name}</h2>
+        <h4>Props: {this.props.name}</h4>
+        <h4>State: {this.state.name}</h4>
         <button onClick={e => this.setState({ name: this.state.name + 1 })}>
           Change State
         </button>
